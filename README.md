@@ -25,7 +25,8 @@ MobileNetV2 modeli kullanıldı. Üst katmanlar değiştirilerek yalnızca son k
 Optimizasyon Karşılaştırması:
 Adam, RMSprop ve SGD algoritmaları test edildi. En iyi performans Adam ile elde edildi.
 
-📈 Elde Edilen Sonuçlar
+Elde Edilen Sonuçlar
+
 Model	Test Doğruluğu
 Custom CNN	0.9053
 MobileNetV2 (Transfer)	0.9070
