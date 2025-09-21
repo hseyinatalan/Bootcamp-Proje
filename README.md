@@ -44,7 +44,7 @@ Streamlit ile Arayüz Geliştirme: Kullanıcıların resim yükleyip sınıf tah
 Model Deploy (End-to-End): Trained modelin bir API olarak deploy edilmesi (örneğin FastAPI veya Flask ile).
 Gerçek Zamanlı Görüntü Sınıflandırma: Webcam üzerinden canlı görüntü alınıp sınıflandırılması.
 
-onuç ve Gelecek Çalışmalar
+Sonuç ve Gelecek Çalışmalar
 
 Bu proje, temel görüntü sınıflandırma tekniklerini hem sıfırdan hem de hazır modellerle deneyimlemek adına etkili bir uygulama olmuştur.
 
