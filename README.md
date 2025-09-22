@@ -52,7 +52,7 @@ Bu proje, temel görüntü sınıflandırma tekniklerini hem sıfırdan hem de h
 Modelin karmaşıklığını azaltmak için model boyutu ve hız optimizasyonu yapılabilir.
 Veri seti büyütülerek veya farklı veri kaynakları eklenerek genelleme yeteneği artırılabilir.
 Daha ileri seviye mimariler (EfficientNet, Vision Transformer) denenebilir.
-Kullanıcı arayüzü ve canlı demo entegrasyonu ile proje ürünleşmeye uygun hale getirilebilir.
+Kullanıcı arayüzü ve canlı demo entegrasyonu ile proje ürünleşmeye uygun hale getirilebilir.(Bunu elimden gelen bir sekilde tarayıcı üzerinde çalışan bir UI haline getirdim.app.py dosyasında kod bulunuyor.)
 
 ## LİNK
 https://www.kaggle.com/code/mhseyinatalan/derin-renme-uygulamas-bootcamp
