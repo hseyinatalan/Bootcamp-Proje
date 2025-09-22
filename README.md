@@ -2,7 +2,7 @@
 
 ## Giriş
 
-Bu proje, Intel Image Classification Dataset kullanılarak doğal görüntülerin (bina, orman, deniz, dağ, sokak ve çöl) sınıflandırılması amacıyla gerçekleştirilmiştir.
+Bu proje, Intel Image Classification Dataset kullanılarak doğal görüntülerin (buildings,forest,glacier,mountain,sea,street) sınıflandırılması amacıyla gerçekleştirilmiştir.
 
 Çalışma kapsamında:
 
