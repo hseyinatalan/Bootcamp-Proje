@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # 1. Modeli yükle
 model = load_model("optimized_cnn_model.h5")
 
-# 2. Sınıf isimlerini tanımla (KENDİ sınıflarını yaz buraya!)
+# 2. Sınıf isimlerini tanımlandı
 class_names = ["buildings", "forest", "glacier", "mountain", "sea", "street"]
 
 st.title("🌍 Görsel Sınıflandırma Uygulaması")
@@ -22,10 +22,10 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
     st.image(image, caption="Yüklenen Görsel", use_column_width=True)
 
-    # Modelin beklediği boyuta göre resize (örneğin 128x128 diyelim)
+    # Modelin beklediği boyuta göre resize edildi.
     img_resized = image.resize((150, 150))  
-    img_array = np.array(img_resized) / 255.0  # normalize et
-    img_array = np.expand_dims(img_array, axis=0)  # batch dimension ekle
+    img_array = np.array(img_resized) / 255.0 
+    img_array = np.expand_dims(img_array, axis=0) 
 
     # Tahmin yap
     predictions = model.predict(img_array)
@@ -42,7 +42,8 @@ if uploaded_file is not None:
     st.pyplot(fig)
 
     # 5. Bilinmeyen sınıf kontrolü
-    if confidence < 0.8:
+    if confidence < 0.7:
         st.error("❌ Bu görsel modelin bildiği sınıflara benzemiyor (Bilinmeyen sınıf).")
     else:
+
         st.success(f"✅ Tahmin: **{predicted_class}** (Güven: %{confidence*100:.2f})")
